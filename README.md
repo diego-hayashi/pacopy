@@ -30,7 +30,7 @@ Some pacopy documentation is available
 
 #### Basic scalar example
 
-<img src="https://nschloe.github.io/pacopy/simple.svg" width="30%">
+<img src="figs/simple.svg" width="30%">
 
 Let's start off with a problem where the solution space is scalar. We try to solve
 `sin(x) - lambda` for different values of `lambda`, stating at 0.
@@ -98,7 +98,7 @@ plt.show()
 
 #### Simple 2D problem
 
-<img src="https://nschloe.github.io/pacopy/simple2d.svg" width="30%">
+<img src="figs/simple2d.svg" width="30%">
 
 A similarly simple example with two unknowns and a parameter. The inner product and
 Jacobian solver are getting more interesting.
@@ -169,7 +169,7 @@ plt.savefig("simple2d.svg", transparent=True, bbox_inches="tight")
 
 #### Bratu
 
-<img src="https://nschloe.github.io/pacopy/bratu1d.png" width="30%">
+<img src="figs/bratu1d.png" width="30%">
 
 Let's deal with an actual PDE, the classical [Bratu
 problem](https://en.wikipedia.org/wiki/Liouville%E2%80%93Bratu%E2%80%93Gelfand_equation)
@@ -274,7 +274,7 @@ pacopy.euler_newton(problem, u0, lmbda0, callback, max_steps=500, newton_tol=1.0
 
 #### Ginzburg–Landau
 
-![ginzburg-landau](https://nschloe.github.io/pacopy/ginzburg-landau.gif)
+![ginzburg-landau](figs/ginzburg-landau.gif)
 
 The [Ginzburg-Landau
 equations](https://en.wikipedia.org/wiki/Ginzburg%E2%80%93Landau_theory) model the
